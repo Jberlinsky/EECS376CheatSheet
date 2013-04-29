@@ -560,7 +560,7 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
   {\bf $NTIME(t(n))$} is a collection of languages decided by an $O(t(n))$ time non-deterministic Turing machine. $NP$ is the union of all languages in $NTIME(n^k)$.
 
   \section{TQBF}
-  True Quantified Boolean Formula -- a fully qualified formula. Written as $\Phi \forall x \exists y [(x \vee y) \wedge (\neg x \vee \neg y)]$. TODO: More from Wikipedia
+  True Quantified Boolean Formula -- a fully qualified formula. Written as $\Phi \forall x \exists y [(x \vee y) \wedge (\neg x \vee \neg y)]$. If such a formula evaluates to true, then it is in TQBF. Also known as Quantified SAT (QSAT).
 
   \subsection{FORMULA-GAME}
   A game with two players $A$ and $E$. Each player selects a value of a variable quantified either the $\forall$s if the player is $A$, or $\exists$s if player $E$, based on the order of the quantifiers. In the end, if the formula is $TRUE$ player $E$ wins, else player $A$ wins.
@@ -571,7 +571,16 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \subsection{SAT}
 
-  TODO
+  Boolean satisfiability problem -- the problem of determining if there exists an interpretation which satisfies a given formula -- in other words, establishes if the variables of a given boolean formula can be assigned in such a way as to make the formula evaluate to TRUE.
+  
+      \subsubsection{Literal}
+      A literal is either a variable or the negation of a variable
+      \subsubsection{Clause}
+      A clause is a disjunction of literals
+      \subsubsection{NP-Completeness}
+      SAT is NP-complete.
+      \subsubsection{3-Satisfiability}
+      Special case of $k-$satisfiability when each clause contains exactly $k = 3$ literals. For example, $E = (x_1 \vee \neg x_2 \vee \neg x_3) \wedge (x_1 \vee x_2 \vee x_4)$. E has two clauses, four variables, and $k = 3$. This is NP-complete, and is used as a starting point to prove that other problems are also NP-hard via a polynomial-time reduction from 3-SAT to the other problem.
 
   \subsection{HAMPATH}
   A directed graph in which all vertices can be hit just once. Polynomially verifiable, but is not solvable in polynomial time.
@@ -606,10 +615,7 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
   For an undirected graph $G$, a vertex cover is a subset of nodes where every edge of $G$ touches one of those nodes.
 
   \subsection{3COL}
-
-  Graph 3-colorability. NP-complete.
-
-  TODO: More
+  Graph 3-colorability. NP-complete. See Homework section for an example.
 
   \subsection{TODO: MORE}
 
@@ -624,6 +630,8 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \section{Polynomial-Time Reduction}
   Language $A$ is {\bf polynomial time mapping reducible} to language $B$, written $a <=_p B$, if there is a polynomial-time computable function $f: \Sigma^* \rightarrow \Sigma^*$ where $\forall w, w \in A \leftrightarrow f(w) \in B$. The function $f$ is called the {\bf polynomial time reduction} of $A$ to $B$.
+  
+  These reductions are computable by a deterministic TM in polynomial time. They are powerful enough to perform many transformations between important problems. These reductions are not appropriate for use in class $P$, because any problem in $P$ can be polynomial-time reduced to almost any other problem in $P$.
 
   \section{Space Complexity}
   Whereas in the last section we were dealing with time, now we consider space as the number of cells the TM uses.
@@ -675,7 +683,7 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \subsection{ZKP for Graph Non-Isomorphism}
 
-  TODO: Define isomorphism
+  An isomorphism of two graphs is a bijection between the vertex sets of the two graphs, $f: V(G_1) \rightarrow V(G_2)$, such that any two vertices $u$ and $v$ of $G_1$ are adjacent in $G_1$ if and only if $f(u), f(v)$ are adjacent in $G_1$.
 
   P is trying to convince V that graphs $G_1, G_2$ are not isomorphic.
 
