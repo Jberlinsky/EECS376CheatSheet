@@ -724,7 +724,20 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \subsection{Sudoku}
 
-  TODO
+  Solving Sudoku is loosely based on solving 3-colorability. P chooses a random permutation $\sigma = \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$. Say $\sigma(1) = 2, \sigma(2) = 8, ...$. P gives one value of $\sigma(x)$ to V, who can choose to:
+  
+  \begin{itemize}
+      \item Choose one of the rows
+      \item Choose one of the columns
+      \item Choose one of the sub-boxes
+      \item See the permuted version of the original puzzle
+  \end{itemize}
+  
+  P provides V the requested information. V will accept if all of the digits in the row appear exactly once. Since every possible permutation in the row will occur with equal probability over the choice of $\sigma$, V learns nothing about the solution from the question.
+  
+  If V asks for the last option, V will accept if it is really a permutation of the original problem. Since $\sigma$ is chosen at random, Victor learns nothing from this answer.
+  
+  If there were no solution, P could not find a permutation that causes V to accept for all of his $28$ possible choices. If V makes his choice at random, then he will catch P cheating with a probability of at least $\frac{1}{28}$. For some sufficiently large number of iterations, if P chooses a new permutation each time, P's chance of cheating will diminish to at most $(\frac{27}{28})^t < 0.5\%|t=150$.
 
   \section{Theorems}
 
