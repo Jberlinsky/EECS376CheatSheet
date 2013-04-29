@@ -7,9 +7,9 @@ There are _a lot_ of TODOs. Crowdsourcing++.
 Contributing
 ------------
 
-1) Fork the repository
-2) Make edits/commits to your fork
-3) Submit pull request
+1. Fork the repository
+2. Make edits/commits to your fork
+3. Submit pull request
 
 I'll approve pull requests quickly, due to the rapidness of the exam approaching. If you want to be a direct contributor, e-mail me: jberlinsky@gmail.com
 
