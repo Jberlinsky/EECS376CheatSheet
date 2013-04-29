@@ -589,35 +589,31 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
   An undirected graph in which all vertices can be hit just once. Polynomially verifiable, but not solvable in polynomial time.
 
   \subsection{CLIQUE}
-  A clique is a subgraph wherein every two nodes are conected by an edge; a $k-$clique is a clique that contains $k$ nodes.
-
-  \subsubsection{MAXCLIQUE}
-
-  TODO
-
-  MAXCLIQUE is $NP-$hard.
+  A clique is a subgraph wherein every two nodes are conected by an edge; a $k-$clique is a clique that contains $k$ nodes. Clique problems include:
+  
+  \begin{itemize}
+      \item Finding the maximum clique (MAXCLIQUE)
+      \item Finding a maximum weight clique in a weighted graph
+      \item Listing all maximal cliques
+      \item Deciding whether a graph contains a clique larger than a given size
+  \end{itemize}
 
   \subsubsection{Decision Version}
-
-  TODO
-
   Is there a $k$-clique in a given graph G?
 
-  NP-Complete
+  NP-Complete. From a given CNF formula, form a graph that has a vertex for every pair $(v, c)$, where $v$ is a variable or its negation and $c$ is a clause in the formula that contains $v$. Vertices are connected by an edge if they represent compatible variable assignments for different clauses. If $k$ denotes the number of clauses in the CNF formula, the the $k-$vertex cliques in this graph represent ways of assigning truth values to some of its variables in order to satisfy the formula; therefore, the formula is satisfiable if and only if a $k-$vertex clique exists.
 
   \subsection{SUBSET-SUM}
   A problem concerning integer arithmetic, where we have numbers $x_1, ..., x_k$ and a target number $t$. We want to determine whether the collection contains a subcollection that adds up to $t$. This problem is $NP-$complete.
 
   \subsection{3SAT}
-  A special instance of the satisfiability problem, written in {\bf 3CNF}-form: $\Phi = (x_1 \vee x_2 \vee x_3) \wedge (x_4 \vee x_5 \vee x_6) ...$. TODO
+  A special instance of the satisfiability problem, written in {\bf 3CNF}-form: $\Phi = (x_1 \vee x_2 \vee x_3) \wedge (x_4 \vee x_5 \vee x_6) ...$.
 
   \subsection{VERTEX-COVER}
   For an undirected graph $G$, a vertex cover is a subset of nodes where every edge of $G$ touches one of those nodes.
 
   \subsection{3COL}
   Graph 3-colorability. NP-complete. See Homework section for an example.
-
-  \subsection{TODO: MORE}
 
   \section{NP-Completeness}
   There are certain problems $\in NP$ whose complexity is related to the entire class of $NP$, so if one polynomial time algorithm is found, then all of $NP$ is solvable in polynomial time.
@@ -699,8 +695,6 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
   If $G_1, G_2$ are isomorphic, P cannot determine which one $V$ started from, so $V$ accepts with probability $w^{-k}$, with $k$ being the number of repetitions.
 
   Because V already knows the answer, no transfer of knowledge occurs.
-
-  TODO: What happens if someone behaves predictably instead of randomly?
 
   \subsection{Color-Blindness}
 
@@ -795,9 +789,49 @@ Corollary: 3SAT is NP-complete
 
   \section{NP-Hard Problems}
 
-  TODO: Enumerate...
+  \begin{itemize}
+      \item K-minimum spanning tree
+      \item MAX-2-SAT
+      \item MAX-3LIN-EQ
+      \item MAX-3SAT
+      \item MAXEkSAT
+      \item Minimum-weight triangulation
+      \item Quadratic assignment problem
+      \item Quadratic bottleneck assignment problem
+      \item Rectilinear Steiner tree
+  \end{itemize}
+  
+  \section{NP-Complete Problems}
+  This is not an exhaustive list. Karp's 21 NP-complete problems. Reductions are nested:
+  \begin{itemize}
+      \item Satisfiability
+          \begin{itemize}
+              \item 0-1 integer programming
+              \item Clique
+              \begin{itemize}
+                  \item Set covering
+                  \item Feedback node set
+                  \item Feedback arc set
+                  \item Directed hamilton circuit
+                  \begin{itemize}
+                      \item Undirected Hamilton circuit
+                  \end{itemize}
+              \end{itemize}
+              \item Satisfiability with at most 3 literals per clause
+              \begin{itemize}
+                  \item Clique cover
+                  \item Exact cover
+                  \begin{itemize}
+                      \item Hitting set
+                      \item Steiner tree
+                      \item 3-dimensional matching
+                      \item Knapsack
+                  \end{itemize}
+              \end{itemize}
+          \end{itemize}
+      
+  \end{itemize}
 
-  CLIQUE, IS, VS
 
   \section{Definitions}
 
@@ -1115,14 +1149,7 @@ Corollary: 3SAT is NP-complete
             TODO
     \subsection{HW8}
         \subsubsection{Specializing TQFB}
-            {\bf In class, we showed how to reduce a generic PSPACE computation to an
-instance of TQBF in which all the quantifiers are in front, but the
-matrix (the part after the quantifiers) is arbitrary.  We also showed
-that the restriction (special case) of TQBF in which the matrix is a
-3-CNF reduces to Generalized Geography.  To show that Generalized
-Geography is PSPACE-hard, we need to close this gap:
-
-Show that the restriction (special case) of TQBF in which the matrix
+            {\bf Show that the restriction (special case) of TQBF in which the matrix
 is a 3-CNF is PSPACE-hard, by reducing a general TQBF instance to the
 special case.}
 
