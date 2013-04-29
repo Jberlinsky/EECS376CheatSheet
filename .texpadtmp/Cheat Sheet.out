@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section*.1}{Equivalence Relations}{}% 1
+\BOOKMARK [1][-]{section*.2}{Boolean Logic}{}% 2
+\BOOKMARK [1][-]{section*.3}{Finite Automata}{}% 3
+\BOOKMARK [2][-]{section*.4}{DFA}{section*.3}% 4
+\BOOKMARK [2][-]{section*.5}{Regular Operations}{section*.3}% 5
+\BOOKMARK [2][-]{section*.6}{Non-Deterministic}{section*.3}% 6
+\BOOKMARK [1][-]{section*.7}{Closure and Projection}{}% 7
+\BOOKMARK [1][-]{section*.8}{Regular Expressions}{}% 8
+\BOOKMARK [2][-]{section*.9}{Regex \040NFA}{section*.8}% 9
+\BOOKMARK [2][-]{section*.10}{DFA \040Regex}{section*.8}% 10
+\BOOKMARK [1][-]{section*.11}{Nonregular Languages}{}% 11
+\BOOKMARK [2][-]{section*.12}{Pumping Lemma}{section*.11}% 12
+\BOOKMARK [3][-]{section*.13}{General Version for Regular Languages}{section*.12}% 13
+\BOOKMARK [3][-]{section*.14}{Converse}{section*.12}% 14
+\BOOKMARK [1][-]{section*.15}{Turing Machines}{}% 15
+\BOOKMARK [2][-]{section*.16}{Formal Definition}{section*.15}% 16
+\BOOKMARK [3][-]{section*.17}{3-State Busy Beaver}{section*.16}% 17
+\BOOKMARK [1][-]{section*.18}{Decidable Languages}{}% 18
+\BOOKMARK [2][-]{section*.19}{Decider}{section*.18}% 19
+\BOOKMARK [2][-]{section*.20}{Closure Properties}{section*.18}% 20
+\BOOKMARK [2][-]{section*.21}{Decidability}{section*.18}% 21
+\BOOKMARK [3][-]{section*.22}{Halting Problem \(Thm 4.11\)}{section*.21}% 22
+\BOOKMARK [2][-]{section*.23}{Recognizers}{section*.18}% 23
+\BOOKMARK [2][-]{section*.24}{Enumerators}{section*.18}% 24
+\BOOKMARK [2][-]{section*.25}{Double Indefinite Tape}{section*.18}% 25
+\BOOKMARK [3][-]{section*.26}{Simulating M by D}{section*.25}% 26
+\BOOKMARK [3][-]{section*.27}{Simulating D by M}{section*.25}% 27
+\BOOKMARK [2][-]{section*.28}{Multi-Tape Turing Machines}{section*.18}% 28

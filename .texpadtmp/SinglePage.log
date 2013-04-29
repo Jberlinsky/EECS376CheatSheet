@@ -1,0 +1,796 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 APR 2013 14:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**SinglePage.tex
+(./SinglePage.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2012/05/15 v3.11 KOMA-Script document class (article)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2011/03/09 v3.09 KOMA-Script package (loading files)
+
+Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `2pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=2pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `2pt'
+(scrartcl)             by `fontsize=2pt'.
+
+
+Class scrartcl Warning: Using fallback calculation to setup font sizes
+(scrartcl)              for basic size `2pt' on input line 1265.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 1265.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/05/15 v3.11 KOMA-Script package (type area)
+
+Package typearea, 2012/05/15 v3.11 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+
+Package typearea Warning: DIV for 2.0pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=1.
+
+DIV calculation for typearea with good linewidth.
+
+Package typearea Warning: Maybe no optimal type area settings!
+(typearea)                The maximum limit of line width is about 32%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You may e.g. increase DIV, decrease fontsize
+(typearea)                or change the papersize.
+
+
+Package typearea Warning: Very low DIV value!
+(typearea)                DIV values less than 6 result in textwidth/-height
+(typearea)                smaller than total marginwidth/-height.
+(typearea)                You should e.g. increase DIV, increase fontsize or
+(typearea)                change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 4
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 149.37698pt
+(typearea)              DIV departure   = 32%
+(typearea)              \evensidemargin = 151.79549pt
+(typearea)              \oddsidemargin  = 151.79549pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 213.19946pt
+(typearea)              \topmargin      = 132.39177pt
+(typearea)              \headheight     = 2.99998pt
+(typearea)              \headsep        = 3.59999pt
+(typearea)              \topskip        = 2.0pt
+(typearea)              \footskip       = 8.39998pt
+(typearea)              \baselineskip   = 2.4pt
+(typearea)              on input line 1211.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box27
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip47
+\multicolbaselineskip=\skip48
+\partial@page=\box28
+\last@line=\box29
+\mult@rightbox=\box30
+\mult@grightbox=\box31
+\mult@gfirstbox=\box32
+\mult@firstbox=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box51
+\colbreak@box=\box52
+\multicol@sort@counter=\count96
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count97
+\calc@Bcount=\count98
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count99
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@layoutwidth=\dimen117
+\Gm@layoutheight=\dimen118
+\Gm@layouthoffset=\dimen119
+\Gm@layoutvoffset=\dimen120
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen121
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen122
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip10
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks17
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks18
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count115
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2010/09/13 v0.53  Overwriting graphics
+
+Package: overpic v0.53 <2010/09/13> (RN)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count116
+\d@lta=\count117
+\@delta=\dimen132
+\@@delta=\dimen133
+\@gridcnt=\count118
+\@joinkind=\count119
+\@dotgap=\dimen134
+\@ddotgap=\dimen135
+\@x@diff=\count120
+\@y@diff=\count121
+\x@diff=\dimen136
+\y@diff=\dimen137
+\@dotbox=\box55
+\num@segments=\count122
+\num@segmentsi=\count123
+\@datafile=\read1
+)
+overpic: relative positioning in percent
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen138
+\enit@toks=\toks27
+\enit@inbox=\box56
+\enitdp@description=\count124
+)
+(/Users/jberlinsky/workspace/school/2013w/eecs376/exams/midterm/cheat_sheet/.te
+xpadtmp/SinglePage.aux)
+\openout1 = `SinglePage.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(7.11317pt, 830.82059pt, 7.11317pt)
+* v-part:(T,H,B)=(7.11317pt, 575.88402pt, 14.51074pt)
+* \paperwidth=845.04694pt
+* \paperheight=597.50793pt
+* \textwidth=830.82059pt
+* \textheight=575.88402pt
+* \oddsidemargin=-65.15681pt
+* \evensidemargin=-65.15681pt
+* \topmargin=-71.75679pt
+* \headheight=2.99998pt
+* \headsep=3.59999pt
+* \topskip=2.0pt
+* \footskip=8.39998pt
+* \marginparwidth=149.37698pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=1.79999pt plus 0.6666pt minus 1.20001pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count125
+\scratchdimen=\dimen139
+\scratchbox=\box57
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen140
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.66669> not available
+(Font)              size <5> substituted on input line 61.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <1.66669> not available
+(Font)              size <5> substituted on input line 62.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.4> not available
+(Font)              size <5> substituted on input line 76.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <2.4> not available
+(Font)              size <5> substituted on input line 76.
+
+LaTeX Font Info:    Calculating math sizes for size <1.66669> on input line 77.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.16667> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.83334> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.66669> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.16667> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.83334> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.66669> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.16667> not available
+(Font)              size <5> substituted on input line 77.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.83334> not available
+(Font)              size <5> substituted on input line 77.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <2> not available
+(Font)              size <5> substituted on input line 89.
+
+<dfa_sample.png, id=1, 347.2975pt x 319.1925pt>
+File: dfa_sample.png Graphic file (type png)
+ <use dfa_sample.png>
+Package pdftex.def Info: dfa_sample.png used on input line 96.
+(pdftex.def)             Requested size: 86.82416pt x 79.79793pt.
+
+Overfull \hbox (22.25578pt too wide) in paragraph at lines 96--97
+ [] 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.82501> not available
+(Font)              size <5> substituted on input line 101.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <1.82501> not available
+(Font)              size <5> substituted on input line 101.
+
+<nfa_dfa.png, id=2, 415.5525pt x 423.5825pt>
+File: nfa_dfa.png Graphic file (type png)
+ <use nfa_dfa.png>
+Package pdftex.def Info: nfa_dfa.png used on input line 124.
+(pdftex.def)             Requested size: 103.88786pt x 105.89536pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 137.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <1.66669> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.66669> not available
+(Font)              size <5> substituted on input line 137.
+
+LaTeX Font Info:    Calculating math sizes for size <2> on input line 170.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.4> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.4> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.4> not available
+(Font)              size <5> substituted on input line 170.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1> not available
+(Font)              size <5> substituted on input line 170.
+
+<regex_to_nfa.png, id=3, 356.33125pt x 395.4775pt>
+File: regex_to_nfa.png Graphic file (type png)
+ <use regex_to_nfa.png>
+Package pdftex.def Info: regex_to_nfa.png used on input line 177.
+(pdftex.def)             Requested size: 89.08258pt x 98.86913pt.
+
+<dfa_to_regex.png, id=4, 447.6725pt x 809.0225pt>
+File: dfa_to_regex.png Graphic file (type png)
+ <use dfa_to_regex.png>
+Package pdftex.def Info: dfa_to_regex.png used on input line 195.
+(pdftex.def)             Requested size: 111.91785pt x 202.25513pt.
+
+<simple_pumping_fsm.png, id=5, 530.98375pt x 60.225pt>
+File: simple_pumping_fsm.png Graphic file (type png)
+
+<use simple_pumping_fsm.png>
+Package pdftex.def Info: simple_pumping_fsm.png used on input line 205.
+(pdftex.def)             Requested size: 132.7456pt x 15.0562pt.
+
+Overfull \hbox (2.60884pt too wide) in paragraph at lines 205--206
+[][]  
+ []
+
+<loop_pumping_fsm.png, id=6, 533.995pt x 91.34125pt>
+File: loop_pumping_fsm.png Graphic file (type png)
+
+<use loop_pumping_fsm.png>
+Package pdftex.def Info: loop_pumping_fsm.png used on input line 209.
+(pdftex.def)             Requested size: 133.49841pt x 22.83525pt.
+
+Overfull \hbox (3.36165pt too wide) in paragraph at lines 209--210
+[][]  
+ []
+
+[1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./dfa_s
+ample.png> <./nfa_dfa.png> <./regex_to_nfa.png> <./dfa_to_regex.png> <./simple_
+pumping_fsm.png> <./loop_pumping_fsm.png>]
+LaTeX Font Info:    Calculating math sizes for size <1.82501> on input line 433
+.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.2775> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.9125> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.82501> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.2775> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.9125> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.82501> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.2775> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.9125> not available
+(Font)              size <5> substituted on input line 433.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <1.66669> not available
+(Font)              size <5> substituted on input line 556.
+
+
+Overfull \hbox (9.49365pt too wide) detected at line 784
+\OML/cmm/m/it/5 M\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 b\OT1/cmr/m/n/5 ) = []
+ []
+
+
+Overfull \hbox (17.43892pt too wide) detected at line 795
+\OML/cmm/m/it/5 M\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 b\OT1/cmr/m/n/5 ) \OMS/cmsy/m/
+n/5 ^^T \OT1/cmr/m/n/5 2 + \OML/cmm/m/it/5 M\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 b=\
+OT1/cmr/m/n/5 2) \OMS/cmsy/m/n/5 ^^T \OT1/cmr/m/n/5 2 + (2 + [](\OML/cmm/m/it/5
+ b=\OT1/cmr/m/n/5 2)) \OMS/cmsy/m/n/5 ^^T \OT1/cmr/m/n/5 2 + (\OML/cmm/m/it/5 k
+ \OT1/cmr/m/n/5 + 1)\OML/cmm/m/it/5 :
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <1.16667> not available
+(Font)              size <5> substituted on input line 929.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.83334> not available
+(Font)              size <5> substituted on input line 929.
+
+[2]
+Overfull \hbox (159.08858pt too wide) detected at line 1070
+\OML/cmm/m/it/5 ^^^\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 c[]; c[]; t\OT1/cmr/m/n/5 ) 
+= []
+ []
+
+
+Overfull \hbox (170.46144pt too wide) detected at line 1083
+\OML/cmm/m/it/5 ^^^\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 c[]; c[]; t\OT1/cmr/m/n/5 ) 
+= []
+ []
+
+
+Overfull \hbox (170.87039pt too wide) detected at line 1095
+\OML/cmm/m/it/5 ^^^\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 c[]; c[]; t\OT1/cmr/m/n/5 ) 
+= []
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 1137.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/it' in size <1.66669> not available
+(Font)              size <5> substituted on input line 1139.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' in size <1.66669> not available
+(Font)              size <5> substituted on input line 1145.
+
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <1.66669> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1165.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <1.66669> not available
+(Font)              size <5> substituted on input line 1165.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <1.66669> not available
+(Font)              size <5> substituted on input line 1204.
+
+
+Overfull \hbox (12.31102pt too wide) detected at line 1239
+\OML/cmm/m/it/5 c\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 C\OT1/cmr/m/n/5 ) \OMS/cmsy/m/
+n/5 ^^T \OML/cmm/m/it/5 c\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 C[]\OT1/cmr/m/n/5 ) = 
+\OML/cmm/m/it/5 c\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 T[]\OT1/cmr/m/n/5 ) \OMS/cmsy/
+m/n/5 ^^T \OT1/cmr/m/n/5 2\OML/cmm/m/it/5 c\OT1/cmr/m/n/5 (\OML/cmm/m/it/5 T\OT
+1/cmr/m/n/5 ) \OMS/cmsy/m/n/5 ^^T \OT1/cmr/m/n/5 2\OML/cmm/m/it/5 c\OT1/cmr/m/n
+/5 (\OML/cmm/m/it/5 C[]\OT1/cmr/m/n/5 )\OML/cmm/m/it/5 ;
+ []
+
+[3]
+(/Users/jberlinsky/workspace/school/2013w/eecs376/exams/midterm/cheat_sheet/.te
+xpadtmp/SinglePage.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.16666pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4826 strings out of 493488
+ 71326 string characters out of 3141326
+ 228878 words of memory out of 3000000
+ 8051 multiletter control sequences out of 15000+200000
+ 11019 words of font info for 46 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 46i,10n,37p,660b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
+5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+ex7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle
+1.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/latxfont/
+line10.pfb>
+Output written on /Users/jberlinsky/workspace/school/2013w/eecs376/exams/midter
+m/cheat_sheet/.texpadtmp/SinglePage.pdf (3 pages, 1304502 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
