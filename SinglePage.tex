@@ -741,7 +741,57 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \section{Theorems}
 
-  TODO
+  \begin{itemize}
+      \item 5.22: If $A <=_m B$ and B is decidable, then A is decidable. Corollary: If $A <=_m B$ and B is undecidable, then A is undecidable
+        \item 5.28: If $A <=_m B$ and B is Turing-recognizable, then A is Turing-recognizable
+Corollary: If $A <=_m B$ and B is not Turing-recognizable, then A is not Turing-recognizable
+        \item 5.30: EQTM is neither Turing-recognizable nor co-Turing-recognizable
+        \item 6.21: If $A <=_T B$ and B is decidable, then A is decidable.
+        \item 7.8: Let $t(n)$ be a function, where $t(n) > n$. Then every $t(n)$ time multitape Turing Machine has an equivalent $O(t^2(n))$ time single-tape Turing Machine
+        \item 7.11: Let $t(n)$ be a function, where $t(n) >= n$. Then every $t(n)$ time nondeterministic single-tape Turing machine has an equivalent $2^{O(t(n))}$ time deterministic single tape Turing Machine
+        \item 7.14: Path $\in$ P
+        \item 7.15: RELPRIME $\in$ P
+        \item 7.16: Every context-free language is a member of P
+        \item 7.20: A language is in NP iff it is decided by some nondeterministic polynomial time Turing machine
+        \item 7.24: CLIQUE $\in$ NP 
+        \item 7.25: SUBSET-SUM $\in$ NP
+        \item 7.27: SAT $\in$ P iff P = NP
+        \item 7.31: If $A <=_P B$ and B $\in$ P, then A $\in$ P
+        \item 7.32: 3SAT is polynomial time reducible to CLIQUE
+        \item 7.35: If B is NP-complete and B $\in$ P, then P = NP
+        \item 7.36: If B is NP-complete and $B <=_P C$ for C in NP, then C is NP-complete
+        \item 7.37: SAT is NP-complete
+Corollary: 3SAT is NP-complete
+        \item 7.43: CLIQUE is NP-complete
+        \item 7.44: VERTEX-COVER is NP-complete
+        \item 7.46: HAMPATH is NP-complete
+        \item 7.55: UHAMPATH is NP-complete
+        \item 7.56: SUBSET-SUM is NP-complete
+        \item 8.9: TQBF is PSPACE-complete
+        \item 8.11: FORMULA-GAME is PSPACE-complete
+        \item 8.14: GENGEO is PSPACE-complete
+        \item 10.1: A is a polynomial time algorithm that produces a vertex cover of G that is no more than twice as large as a smallest vertex cover:
+        
+            A = ``On input <G>, where G is an undirected graph:
+            \begin{itemize}
+                \item Repeat the following until all edges in G touch a marked edge:
+                \begin{itemize}
+                    \item Find an edge in G untouched by a marked edge
+                    \item Mark that edge
+                \end{itemize}
+                 \item Output all nodes that are endpoints of marked edges"
+            \end{itemize}
+
+        \item 10.2: B is a polynomial time, 2-optimal approximation algorithm for MAX-CUT:
+            
+            B = ``On input <G>, where G is an undirected graph with nodes V
+            \begin{itemize}
+                \item Let $S = \emptyset$, $T = V$
+                \item If moving a single node, either from S to T or T to S, increases the size of the cut, make that move and repeat this stage
+                \item If no such node exists, output the current cut and halt"
+            \end{itemize}
+  \end{itemize}
+
 
   \section{NP-Hard Problems}
 
