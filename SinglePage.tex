@@ -1,4 +1,4 @@
-\documentclass[2pt]{scrartcl}
+\documentclass[2pt,legalpaper]{scrartcl}
 %\documentclass[8pt,landscape]{article}
 \usepackage{multicol}
 \usepackage{calc}
@@ -59,11 +59,6 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 \raggedright
 \footnotesize
-{\bf NOTE: Please do not delete information from before the midterm. If you want your own copy of a certain size, please make your own file.}
-
-{\bf Contributors: Jason Berlinsky (with credits to study guide contributors)}
-
-{\bf NOTE: This guide IS too long. It will be reduced when all the TODOs are filled in.}
 \begin{multicols}{6}
 
 
@@ -839,11 +834,7 @@ Corollary: 3SAT is NP-complete
 
   {\bf Completeness}: A resolution is complete if all unsatisfiable formulas are declared unsatisfiable.
 
-  TODO: List of reductions!
-
   \section{Homework Problems}
-
-  \subsection{HW6}
 
   {\bf Show how to compute $a^b mod p$, where $p$ is prime, in polynomial time in the length of the input $(a, b, p)$}
 
@@ -1137,102 +1128,7 @@ Corollary: 3SAT is NP-complete
 
     Conversely, suppose we have a 3-coloring $\Gamma$ for the graph. We can read a truth assignment from the coloring of the literal vertices. This is sensible because exactly one of $\{x, \neg x\}$ is colored $F$ and the other is $T$.
 
-    \subsection{HW7}
-    
-        \subsubsection{Sudoku to adhocSAT}
-            TODO
-        \subsubsection{Sudoku to 3SAT}
-            TODO
-        \subsubsection{Sudoku to Graph Coloring}
-            TODO
-        \subsubsection{Farmer, Fox, Goat and Cabbage}
-            TODO
-    \subsection{HW8}
-        \subsubsection{Specializing TQFB}
-            {\bf Show that the restriction (special case) of TQBF in which the matrix
-is a 3-CNF is PSPACE-hard, by reducing a general TQBF instance to the
-special case.}
-
-            Recall that our generic reduction of PSPACE to adhocTQBF went
-something like this.  Given a generic PSPACE machine $M$, we want to
-define a formula $\phi(c_1,c_2,t)$ that is true iff there is a path of
-exactly $t$ steps from $M$-configuration $c_1$ to $c_2$, where we may
-assume that $t$ is a power of 2.  We gave a ``middle-out'' recursive
-definition:
-\[\phi(c_1,c_2,t)=
-\left\{
-\begin{array}{ll}
-\exists m\forall c_3\forall c_4\>
-(c_3,c_4)=(c_1,m)\lor(c_3,c_4)=(m,c_2)\to\phi(c_3,c_4,t/2), & t > 1\\
-\mbox{$c_2$ equals $c_1$ except for small changes}, & t = 1.
-\end{array}
-\right.
-\]
-
-Note that, in the recursive constuction of $\phi(c_3,c_4,t/2)$, at
-first there will be quantifiers embedded:
-\[\phi(c_1,c_2,t)=
-\left\{
-\begin{array}{ll}
-\exists m\forall c_3\forall c_4\>
-(c_3,c_4)=(c_1,m)\lor(c_3,c_4)=(m,c_2)\to\left[\exists m_1\forall
-  c_5\forall c_6\ldots\right], & t > 1\\
-\mbox{$c_2$ equals $c_1$ except for small changes}, & t = 1,
-\end{array}
-\right.
-\]
-but, since $m_1,c_5$, and $c_6$ don't involve $m,c_3$, or $c_4$, the
-quantifiers can be passed out:
-\[\phi(c_1,c_2,t)=
-\left\{
-\begin{array}{ll}
-\exists m\forall c_3\forall c_4\>\exists m_1\forall
-  c_5\forall c_6\>
-(c_3,c_4)=(c_1,m)\lor(c_3,c_4)=(m,c_2)\to\left[\ldots\right], & t > 1\\
-\mbox{$c_2$ equals $c_1$ except for small changes}, & t = 1,
-\end{array}
-\right.
-\]
-That is, $\alpha\to\exists x\forall y\> \beta$ is the same thing as
-$\exists x\forall y\>\beta$ in this case.
-
-So we are left with a formula with all the quantifiers in front and
-some quantifier-free matrix following that.
-
-The details of the matrix depend on the precise model of computation,
-which we are {\em not} specifying.  In any case, we need to express
-equality of configurations, (as in $(c_3,c_4)=(c_1,m)$, above) and
-{\em near} equality of configurations (as in the base case, when we
-express that $c_2$ is like $c_1$ except for a small number of
-changes).  For our purposes, we assume that the matrix is some boolean
-formula of size polynomial in $n$, the size of input to our generic
-PSPACE computation.  Our goal is to convert this to a 3-CNF, possibly
-with additional quantifiers in front.
-
-That is, we start with a formula like $\alpha=\exists w\forall x \psi(w,x)$,
-where $\psi$ is an arbitrary boolean formula, and we want to get a new
-formula $\beta=\exists w\forall x\exists y\forall
-z\>\upsilon(w,x,y,z)$, such that
-\begin{itemize}
-\item $\upsilon$ is a 3-CNF
-\item $beta$ is constructed from $\alpha$ in time polynomial in $n$
-  (in particular, $\upsilon$ is of polynomial size), and
-\item $\beta$ is true iff $\alpha$ is true.
-\end{itemize}
-
-To do this, we regard $\psi$ as a circuit and put new boolean
-variables on the wires of $\psi$.  These are all existentially
-quantified.  We then express that
-\begin{itemize}
-\item Gate-by-gate and input-by-input, $\psi$ works correctly
-\item The input wires of $\psi$ agree with the original variables
-  $w,x,\ldots$
-\item $\psi$'s output is true.
-\end{itemize}
-This is similar to what we did to convert a general SAT instance into
-a 3SAT instance.
-        
-        \subsubsection{Traveling Salesperson}
+    \subsection{Traveling Salesperson}
 
             {\bf The Traveling Salesperson Problem, \textsc{MinTSP}, is the following
 optimization problem.  Consider a complete undirected graph on $n$
