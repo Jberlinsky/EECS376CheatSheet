@@ -560,7 +560,7 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
   {\bf $NTIME(t(n))$} is a collection of languages decided by an $O(t(n))$ time non-deterministic Turing machine. $NP$ is the union of all languages in $NTIME(n^k)$.
 
   \section{TQBF}
-  True Quantified Boolean Formula -- a fully qualified formula. Written as $\Phi \forall x \exists y [(x \vee y) \wedge (\neg x \vee \neg y)]$. TODO: More from Wikipedia
+  True Quantified Boolean Formula -- a fully qualified formula. Written as $\Phi \forall x \exists y [(x \vee y) \wedge (\neg x \vee \neg y)]$. If such a formula evaluates to true, then it is in TQBF. Also known as Quantified SAT (QSAT).
 
   \subsection{FORMULA-GAME}
   A game with two players $A$ and $E$. Each player selects a value of a variable quantified either the $\forall$s if the player is $A$, or $\exists$s if player $E$, based on the order of the quantifiers. In the end, if the formula is $TRUE$ player $E$ wins, else player $A$ wins.
@@ -571,7 +571,16 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
   \subsection{SAT}
 
-  TODO
+  Boolean satisfiability problem -- the problem of determining if there exists an interpretation which satisfies a given formula -- in other words, establishes if the variables of a given boolean formula can be assigned in such a way as to make the formula evaluate to TRUE.
+  
+      \subsubsection{Literal}
+      A literal is either a variable or the negation of a variable
+      \subsubsection{Clause}
+      A clause is a disjunction of literals
+      \subsubsection{NP-Completeness}
+      SAT is NP-complete.
+      \subsubsection{3-Satisfiability}
+      Special case of $k-$satisfiability when each clause contains exactly $k = 3$ literals. For example, $E = (x_1 \vee \neg x_2 \vee \neg x_3) \wedge (x_1 \vee x_2 \vee x_4)$. E has two clauses, four variables, and $k = 3$. This is NP-complete, and is used as a starting point to prove that other problems are also NP-hard via a polynomial-time reduction from 3-SAT to the other problem.
 
   \subsection{HAMPATH}
   A directed graph in which all vertices can be hit just once. Polynomially verifiable, but is not solvable in polynomial time.
